@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9f9; /* gris clair */
+}
+
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0rem; 
+}
+
+.logo {
+    width: 80px;
+    border-radius: 70%;
+}

@@ -6,14 +6,122 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #30168f;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 0.5rem;
-    margin: 0rem; 
+    margin: 0rem;
 }
 
 .logo {
     width: 80px;
     border-radius: 70%;
+}
+
+nav.navbar {
+    background-color: #30168f;
+    overflow: hidden;
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #4c4a53;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav.navbar li {
+    margin-right: 10px;
+}
+
+nav.navbar a {
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #4c4a53;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+}
+
+nav.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+nav.navbar a:hover::after {
+  width: 100%;
+}
+a.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;                   
+  background-color: #f2f2f2;   
+  color: rgb(0, 0, 0);                
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.btn .btn-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+a.btn:hover,
+a.btn:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.16);
+  background-color: #ffffff;
+  outline: none;
+}
+.btn .btn-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  display: block;
+}
+
+
+
+a.boutonn.indeed {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+a.boutonn.indeed:hover {
+    background-color: #1fc733;
+}
+footer#Contact {
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+}
+
+footer#Contact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    list-style: none;
 }

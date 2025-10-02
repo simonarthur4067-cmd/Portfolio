@@ -1,22 +1,22 @@
 <!doctype html>
 <html lang="fr">
     <head>
+             <meta charset="UTF-8">
             <title>Portfolio - SIMON Arthur</title>
+            <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <link rel="stylesheet" href="style.css">
            <img src="asset/Maphoto.jpg" alt="Mon logo" class="logo"/> 
             <h1>Bienvenue sur mon portfolio</h1>
             <nav class="navbar">
                 <ul> 
-                    <a href="#Accueil"> Accueil</a>
-                    <a href="#Softskill"> Softskill</a>
-                    <a href="#Projets"> Projets </a>
-                    <a href="#A propos"> A propos </a>
-                    <a href="#Technologie"> Technologie </a>
-                    <a href="#Contact"> Contact </a>
-
+                    <li><a href="#Accueil"> Accueil</a></li>
+                    <li><a href="#Softskill"> Softskill</a></li>
+                    <li><a href="#Projets"> Projets</a></li>
+                    <li><a href="#A propos"> A propos</a></li>
+                    <li><a href="#Technologie"> Technologie</a></li>
+                    <li><a href="#Contact"> Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -52,18 +52,21 @@
                 <li>Notions en design et création de contenu</li>
             </ul>
         </section>
-        <section id="Contact">
+        <footer id="Contact">
             <h2>Contact</h2>
             <ul>
-                <li><a href="mailto:simonarthur4067@gmail.com">
-                    <button>M'envoyer un email</button></a></li>
+                <li><a class="btn" href="mailto:simonarthur4067@gmail.com">
+                   <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2 4h20c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.01L12 13 22 6.01V6H2zm0 12h20V8l-10 7L2 8v10z"/>
+                    </svg>
+                    <span>M'envoyer un email</span>
+                    </a></li>
                 <li>Téléphone : 06 03 22 51 81</li>
-                <li><a href="https://profile.indeed.com/?hl=fr_FR&co=FR&from=gnav-homepage">
-                    <button>Indeed</button></a>
+                <li><a class="boutonn indeed" href="https://profile.indeed.com/?hl=fr_FR&co=FR&from=gnav-homepage">
+                    Indeed</a>
                 </li>
+                <li>© 2025 SIMON Arthur</li>
             </ul>
-        </section>
-
-        <footer>© 2025 SIMON Arthur</footer>
+        </footer>
     </body>
 </html>

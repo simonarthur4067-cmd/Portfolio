@@ -100,6 +100,7 @@ a.boutonn.indeed {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: 700;
     color: #000000;
     background-color: #f2f2f2;
     border: none;
@@ -107,9 +108,13 @@ a.boutonn.indeed {
     text-decoration: none;
     text-align: center;
     margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
 }
 a.boutonn.indeed:hover {
-    background-color: #1fc733;
+    transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.16);
+  background-color: #ffffff;
+  outline: none;
 }
 footer#Contact {
     background-color: #f2f2f2;
